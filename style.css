@@ -38,7 +38,7 @@ a {
   position: relative;
   min-height: 378px;
   color: #fffaf3;
-  background: #170d07 url("hero-reference.jpg") center 48% / cover no-repeat;
+  background: url("hero-reference.jpg") center 48% / cover no-repeat;
   overflow: hidden;
 }
 
