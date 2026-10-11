@@ -98,6 +98,7 @@ a {
   letter-spacing: .17em;
   white-space: nowrap;
   font-weight: 500;
+  align-self: flex-start;
 }
 
 .navigation {
@@ -127,6 +128,7 @@ a {
   z-index: 1;
   padding-top: 28px;
   max-width: 600px;
+  align-self: flex-start;
 }
 
 .hero-copy h1 {
@@ -408,6 +410,10 @@ a {
     align-items: center;
   }
 
+  .brand-subtitle {
+    align-self: center;
+  }
+
   .navigation {
     flex-wrap: wrap;
     justify-content: center;
@@ -418,6 +424,7 @@ a {
 
   .hero-copy {
     padding-top: 30px;
+    align-self: flex-start;
   }
 
   .benefits {
