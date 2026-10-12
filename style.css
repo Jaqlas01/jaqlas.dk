@@ -114,7 +114,7 @@ a {
 .brand-decoration::after {
   content: '';
   position: absolute;
-  width: 25px;
+  width: 75px;
   height: 2px;
   background: var(--gold);
   top: 50%;
@@ -123,11 +123,11 @@ a {
 }
 
 .brand-decoration::before {
-  left: -5px;
+  left: -40px;
 }
 
 .brand-decoration::after {
-  right: -5px;
+  right: -40px;
 }
 
 .brand-decoration img {
