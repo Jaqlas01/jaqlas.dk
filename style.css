@@ -106,12 +106,34 @@ a {
   width: 90px;
   height: 90px;
   flex-shrink: 0;
+  position: relative;
+}
+
+.brand-decoration::before,
+.brand-decoration::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background: var(--gold);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.brand-decoration::before {
+  left: 0;
+}
+
+.brand-decoration::after {
+  right: 0;
 }
 
 .brand-decoration img {
   display: block;
   width: 100%;
   height: auto;
+  position: relative;
+  z-index: 1;
 }
 
 .header-decoration {
