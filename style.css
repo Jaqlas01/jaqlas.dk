@@ -69,7 +69,8 @@ a {
 .brand {
   display: flex;
   flex-direction: column;
-  width: max-content;
+  align-items: center;
+  width: 100%;
   color: #fffaf3;
   text-decoration: none;
 }
@@ -94,13 +95,12 @@ a {
   letter-spacing: .17em;
   white-space: nowrap;
   font-weight: 500;
-  align-self: flex-start;
 }
 
 .brand-decoration {
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: center;
   margin-top: 8px;
   max-width: 90px;
   height: auto;
