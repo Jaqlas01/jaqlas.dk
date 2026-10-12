@@ -107,6 +107,7 @@ a {
   height: 90px;
   flex-shrink: 0;
   position: relative;
+  overflow: visible;
 }
 
 .brand-decoration::before,
@@ -118,14 +119,15 @@ a {
   background: var(--gold);
   top: 50%;
   transform: translateY(-50%);
+  z-index: 2;
 }
 
 .brand-decoration::before {
-  left: 0;
+  left: -5px;
 }
 
 .brand-decoration::after {
-  right: 0;
+  right: -5px;
 }
 
 .brand-decoration img {
